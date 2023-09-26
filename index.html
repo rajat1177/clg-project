@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; 
+        }
+
+        header, nav {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        nav>a{
+            background-color: #ff9900;
+            border-radius: 5px;
+        }
+        .wrapper {
+            display: flex;
+        }
+
+        .branch-container {
+            background-color: #1a1a1a;
+            color: #fff; 
+            padding: 10px;
+            height: 70vh;
+            width: 200px; 
+        }
+
+        .container {
+            width:80vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .branch-section {
+            background-color: #fff; 
+            padding: 20px;
+            margin-left: 220px; 
+            border-radius: 5px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .branch-section img {
+            max-width: 200px;
+            margin-right: 20px; 
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 18px;
+            color: #555; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: #ff9900;">Online Bookstore</h1>
+        <h2>Created and Managed by AKGEC</h2>
+    </header>
+
+    <nav>
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+        <a href="#">Catalogue</a>
+        <a href="#">About</a>
+    </nav>
+
+    <div class="wrapper">
+        <div class="branch-container">
+            <p>Choose your branch:</p>
+            <ul>
+                <li><a href="#cse">Computer Science & Engineering (CSE)</a></li>
+                <li><a href="#ece">Electrical & Computer Engineering (ECE)</a></li>
+                <li><a href="#mech">Mechanical Engineering (Mech)</a></li>
+                <li><a href="#civil">Civil Engineering (Civil)</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h2>Welcome to Our Online Bookstore</h2>
+            <img src="img.jpg" alt="Book Image">
+        </div>
+     </div>
+</body>
+</html>
+
